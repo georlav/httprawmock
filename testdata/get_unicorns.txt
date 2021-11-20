@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Sat, 20 Nov 2021 13:45:22 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Allow-Headers: DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range
+Access-Control-Expose-Headers: Content-Length,Content-Range
+
+[{"_id":"6198f9cc97069d03e849096b","name":"Sparkle Angel","age":2,"colour":"blue"},{"_id":"6198f9ce97069d03e849096c","name":"Sparkle Angel","age":2,"colour":"blue"},{"_id":"6198f9da97069d03e849096d","name":"Sparkle Angel","age":2,"colour":"blue"}]
