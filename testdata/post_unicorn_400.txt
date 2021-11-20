@@ -1,0 +1,8 @@
+HTTP/1.1 400 Bad Request
+Server: nginx/1.14.2
+Date: Sat, 20 Nov 2021 18:30:50 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"error":"some error"}
