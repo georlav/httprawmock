@@ -18,7 +18,7 @@ func ExampleNewServer() {
 
 	// Register your routes according to you needs
 	ts := httprawmock.NewServer(
-		httprawmock.NewRoute(http.MethodPost, "/unicorns/{id}", resp1),
+		httprawmock.NewRoute(http.MethodPost, "/unicorns", resp1),
 		httprawmock.NewRoute(http.MethodGet, "/unicorns", resp2),
 		httprawmock.NewRoute(http.MethodGet, "/unicorns/{id}", resp3),
 		httprawmock.NewRoute(http.MethodPut, "/unicorns/{id}", resp4),
@@ -55,7 +55,7 @@ func ExampleNewServer() {
 	// Method: DELETE, Pattern: /unicorns/{id}
 	// Method: GET, Pattern: /unicorns
 	// Method: GET, Pattern: /unicorns/{id}
-	// Method: POST, Pattern: /unicorns/{id}
+	// Method: POST, Pattern: /unicorns
 	// Method: PUT, Pattern: /unicorns/{id}
 	// {"_id":"6198f9da97069d03e849096d","name":"Sparkle Angel","age":2,"colour":"blue"}
 }
