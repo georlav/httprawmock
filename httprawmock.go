@@ -66,7 +66,6 @@ func (s *Server) GetRoutes() ([]string, error) {
 	}
 
 	return routes, nil
-
 }
 
 // SetCustomNotFoundHandler change the default not found router handler
