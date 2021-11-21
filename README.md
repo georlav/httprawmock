@@ -6,7 +6,7 @@
 A simple http test server which allow the use of raw http response data for easy mocking APIs and web services. Create end-to-end tests for your http client by setting your own routes using custom patterns and a stub for each.
 
 ## Examples
-Please check the [examples_test.go](examples_test.go) file for some basic usage examples.
+Please check the [examples_test.go](examples_test.go) file for some basic usage examples. Also check some  basic examples from [another project](https://github.com/georlav/bitstamp/blob/master/httpapi_test.go) that uses httprawmock and table driven tests.
 
 ## Install
 ```bash
