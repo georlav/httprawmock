@@ -43,6 +43,7 @@ func ExampleNewServer() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
+	defer resp.Body.Close()
 
 	b, err := io.ReadAll(resp.Body)
 	if err != nil {
